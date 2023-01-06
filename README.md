@@ -97,7 +97,7 @@ To view all available options run:
 
 # License
 
-Copyright (c) 2017-18 by [Nikolaos Kamarinakis](mailto:nikolaskam@gmail.com) & [David Schütz](mailto:xdavid@protonmail.com). Some rights reserved.
+Copyright (c) 2007-23. Some rights reserved.
 
 KickThemOut is under the terms of the [MIT License](https://www.tldrlegal.com/l/mit), following all clarifications stated in the [license file](https://raw.githubusercontent.com/TotoB12/kickthemout/master/LICENSE).
 
