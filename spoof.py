@@ -3,8 +3,7 @@
 # spoof.py
 
 """
-Copyright (C) 2017-18 Nikolaos Kamarinakis (nikolaskam@gmail.com) & David Schütz (xdavid@protonmail.com)
-See License at nikolaskama.me (https://nikolaskama.me/kickthemoutproject)
+Copyright (C) 2007-23
 """
 
 import sys, logging
