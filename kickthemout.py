@@ -3,8 +3,7 @@
 # kickthemout.py
 
 """
-Copyright (C) 2017-18 Nikolaos Kamarinakis (nikolaskam@gmail.com) & David Schütz (xdavid@protonmail.com)
-See License at nikolaskama.me (https://nikolaskama.me/kickthemoutproject)
+Copyright (C) 2007-23 (totob12github@gmail.com)
 """
 
 import os, sys, logging, math, traceback, optparse, threading
@@ -37,7 +36,7 @@ except KeyboardInterrupt:
     shutdown()
 except:
     print("\n{}ERROR: Requirements have not been satisfied properly. Please look at the README file for configuration instructions.".format(RED))
-    print("\n{}If you still cannot resolve this error, please submit an issue here:\n\t{}https://github.com/k4m4/kickthemout/issues\n\n{}Details: {}{}{}".format(RED, BLUE, RED, GREEN, str(sys.exc_info()[1]), END))
+    print("\n{}If you still cannot resolve this error, please submit an issue here:\n\t{}https://github.com/TotoB12/kickthemout/issues\n\n{}Details: {}{}{}".format(RED, BLUE, RED, GREEN, str(sys.exc_info()[1]), END))
     os._exit(1)
 
 
@@ -54,7 +53,7 @@ def heading():
      ▀               ▀               ▀             ▀           ▀▀▀
     """ + END + BLUE +
     '\n' + '{}Kick Devices Off Your LAN ({}KickThemOut{}){}'.format(YELLOW, RED, YELLOW, BLUE).center(98) +
-    '\n' + 'Made With <3 by: {0}Nikolaos Kamarinakis ({1}k4m4{2}) & {0}David Schütz ({1}xdavidhu{2}){3}'.format(YELLOW, RED, YELLOW, BLUE).center(111) +
+    '\n' + 'Made With <3 by: {0}TotoB12 ({1}totob12{2})'.format(YELLOW, RED, YELLOW, BLUE).center(111) +
     '\n' + 'Version: {}2.0{} \n'.format(YELLOW, END).center(86))
 
 
@@ -97,7 +96,7 @@ def optionBanner():
 def runDebug():
     print("\n\n{}WARNING! An unknown error has occurred, starting debug...{}".format(RED, END))
     print(
-    "{}Starting debug... (Please report this crash on 'https://github.com/k4m4/kickthemout/issues' with your private information removed where necessary){}".format(
+    "{}Starting debug... (Please report this crash on 'https://github.com/TotoB12/kickthemout/issues' with your private information removed where necessary){}".format(
         RED, END))
     try:
         print("Current defaultGatewayMac: " + defaultGatewayMac)
@@ -263,7 +262,7 @@ def scanNetwork():
         shutdown()
     except:
         print("\n\n{}ERROR: Network scanning failed. Please check your requirements configuration.{}".format(RED, END))
-        print("\n{}If you still cannot resolve this error, please submit an issue here:\n\t{}https://github.com/k4m4/kickthemout/issues\n\n{}Details: {}{}{}".format(RED, BLUE, RED, GREEN, str(sys.exc_info()[1]), END))
+        print("\n{}If you still cannot resolve this error, please submit an issue here:\n\t{}https://github.com/TotoB12/kickthemout/issues\n\n{}Details: {}{}{}".format(RED, BLUE, RED, GREEN, str(sys.exc_info()[1]), END))
         os._exit(1)
     try:
         regenOnlineIPs()
@@ -641,7 +640,7 @@ def main():
                 "\n{}{}WARNING: There are {}0 hosts{} up on you network.\n\tIt looks like something went wrong {}:/{}".format(
                     GREEN, RED, GREEN, RED, GREEN, END))
                 print(
-                "\n{}If you are experiencing this error multiple times, please submit an issue here:\n\t{}https://github.com/k4m4/kickthemout/issues\n{}".format(
+                "\n{}If you are experiencing this error multiple times, please submit an issue here:\n\t{}https://github.com/TotoB12/kickthemout/issues\n{}".format(
                     RED, BLUE, END))
                 os._exit(1)
 
