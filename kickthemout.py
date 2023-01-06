@@ -53,7 +53,7 @@ def heading():
      ▀               ▀               ▀             ▀           ▀▀▀
     """ + END + BLUE +
     '\n' + '{}Kick Devices Off Your LAN ({}KickThemOut{}){}'.format(YELLOW, RED, YELLOW, BLUE).center(98) +
-    '\n' + 'Made With <3 by: {0}TotoB12 ({1}totob12{2})'.format(YELLOW, RED, YELLOW, BLUE).center(111) +
+    '\n' + 'Brought To You With <3 by: {0}TotoB12 ({1}totob12{2})'.format(YELLOW, RED, YELLOW, BLUE).center(111) +
     '\n' + 'Version: {}2.0{} \n'.format(YELLOW, END).center(86))
 
 
