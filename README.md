@@ -17,7 +17,7 @@ Author: [TotoB12](mailto:totob12github@gmail.com).
 
 ## Debian Installation
 
-You can download KickThemOut by cloning the [Git Repo](https://github.com/totob12/kickthemout) and simply installing its requirements:
+You can download KickThemOut by cloning the [Git Repo](https://nikolaskama.me/kickthemoutproject) and simply installing its requirements:
 
 ```
 ~ ❯❯❯ sudo apt-get update && sudo apt-get install nmap
