@@ -1,6 +1,6 @@
 # KickThemOut
 
-> [KickThemOut](https://github.com/totob12/kickthemout/) - **Kick Devices Off Your Network**
+> [KickThemOut](https://kama.tech/archive/kickthemoutproject) - **Kick Devices Off Your Network**
 
 A tool to kick devices out of your network and enjoy all the bandwidth for yourself.
 It allows you to select specific or all devices and ARP spoofs them off your local area network.
@@ -17,7 +17,7 @@ Author: [TotoB12](mailto:totob12github@gmail.com).
 
 ## Debian Installation
 
-You can download KickThemOut by cloning the [Git Repo](https://nikolaskama.me/kickthemoutproject) and simply installing its requirements:
+You can download KickThemOut by cloning the [Git Repo](https://github.com/TotoB12/kickthemout) and simply installing its requirements:
 
 ```
 ~ ❯❯❯ sudo apt-get update && sudo apt-get install nmap
